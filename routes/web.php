@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 Route::get('/form',[CustomerDetailController::class,'form'])->name('form');
 Route::post('/form', [CustomerDetailController::class, 'store'])->name('store');
+Route::get('/show', [CustomerDetailController::class, 'show'])->name('show');

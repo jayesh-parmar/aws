@@ -25,4 +25,11 @@ class CustomerDetailController extends Controller
 
         return redirect()->route('form')->with('success' ,"Your form data Submit");
     }
+
+    public function show()
+    {
+        $data=CustomerDetail::get();
+
+        return view('show',['data' => $data]);
+    }
 }

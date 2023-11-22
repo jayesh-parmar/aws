@@ -52,6 +52,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Save</button>
         </form>
+        <a name="" id="" class="btn btn-primary" href="{{route('show')}}" role="button">Show</a>
     </main>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
